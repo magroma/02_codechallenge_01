@@ -20,11 +20,11 @@ let result = (numberOne + numberTwo);
 
 console.log("Die Summer der Zahlen ist: " + result);
 */
-let numberOne,numberTwo;
-numberOne = prompt("Geben Sie eine Zahl ein");
+//let numberOne,numberTwo;
+let numberOne = parseFloat(prompt("Geben Sie eine Zahl ein"));
 //numberOne = parseInt (numberOne);
-numberTwo = prompt("Geben Sie eine weitere Zahl ein");
+let numberTwo = parseFloat(prompt("Geben Sie eine weitere Zahl ein"));
 //numberTwo = parseInt (numberTwo)
-let result = (parseFloat(numberOne) + parseFloat(numberTwo));
+let result = (numberOne) + (numberTwo);
 console.log("Die Summer der Zahlen ist: " + result);
 
